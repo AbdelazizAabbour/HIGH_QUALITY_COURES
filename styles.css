@@ -219,6 +219,251 @@ ul li a:hover{
     transform: scale(1.1); 
 }
 
+/* ========================================================= */
+/* ------------------------modif---------------------------- */
+/* ========================================================= */
+
+.back_section{
+    background-image: url(PIC/WhatsApp\ Image\ 2024-12-03\ at\ 15.13.00.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) { 
+    .back_section {
+        height: auto; 
+        min-height: 100vh; 
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        color: white;
+        background-color: #96BB7C;
+        border: none;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .chatboot {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .btn-outline-success, .btn-btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .card-top {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        filter: grayscale(100%);
+    }
+
+    .card:hover img {
+        filter: grayscale(0%);
+    }
+}
+
+header {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar-toggler-icon {
+    background-color: #96BB7C;
+}
+
+.svj12 {
+    color: white;
+}
+
+.papa {
+    justify-content: center; 
+}
+
+.tout-link {
+    color: #96BB7C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    transition: cubic-bezier(100%);
+    text-align: center;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    transition: cubic-bezier(100%);
+}
+
+.papa p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-gras {
+    width: 150px;
+}
+
+.nase {
+    border-radius: 50%;
+}
+
+.card-nase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    transition: transform 0.5s ease;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-top {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.card-top:hover {
+    background-color: #96BB7C;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.font {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.locla {
+    padding: 14px;
+    margin-top: 10px;
+}
+
+.papafin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-top {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.5s ease;
+}
+
+.card-top:hover {
+    transform: translateY(-9px);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: rgb(110, 108, 108);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #96BB7C;
+    text-decoration: underline;
+}
+
+.card img {
+    filter: grayscale(100%);
+    transition: transform 0.5s ease;
+}
+
+.card:hover img {
+    filter: grayscale(0%);
+}
+
+.nase:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    filter: none;
+}
+
+.page {
+    position: relative; 
+}
+
+.chatboot {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 9999;
+    background-color: #96BB7C; 
+    border-radius: 50%; 
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+}
+
+.chatboot img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.chatboot:hover {
+    transform: scale(1.1); 
+}
+
 
 
 
